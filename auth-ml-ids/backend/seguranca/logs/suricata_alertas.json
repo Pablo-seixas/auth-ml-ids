@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-04-02T21:55:09.961235-0300",
+  "flow_id": 846873346655058,
+  "in_iface": "eth0",
+  "event_type": "alert",
+  "src_ip": "192.168.###.###",
+  "src_port": 46860,
+  "dest_ip": "###.###.###.###",
+  "dest_port": 443,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 29,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2231001,
+    "rev": 1,
+    "signature": "SURICATA QUIC error on data",
+    "category": "Generic Protocol Command Decode",
+    "severity": 3
+  },
+  "quic": {
+    "version": "99"
+  },
+  "app_proto": "quic",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 20085,
+    "pkts_toclient": 122261,
+    "bytes_toserver": 3012778,
+    "bytes_toclient": 178217054,
+    "start": "2025-04-02T20:55:15.590394-0300",
+    "src_ip": "192.168.###.###",
+    "dest_ip": "###.###.###.###",
+    "src_port": 46860,
+    "dest_port": 443
+  }
+},
+{
+  "timestamp": "2025-04-02T22:07:27.256959-0300",
+  "flow_id": 846873346655058,
+  "in_iface": "eth0",
+  "event_type": "alert",
+  "src_ip": "192.168.###.###",
+  "src_port": 46860,
+  "dest_ip": "###.###.###.###",
+  "dest_port": 443,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 35,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2231001,
+    "rev": 1,
+    "signature": "SURICATA QUIC error on data",
+    "category": "Generic Protocol Command Decode",
+    "severity": 3
+  },
+  "quic": {
+    "version": "21"
+  },
+  "app_proto": "quic",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 20744,
+    "pkts_toclient": 122999,
+    "bytes_toserver": 3111936,
+    "bytes_toclient": 179173418,
+    "start": "2025-04-02T20:55:15.590394-0300",
+    "src_ip": "192.168.###.###",
+    "dest_ip": "###.###.###.###",
+    "src_port": 46860,
+    "dest_port": 443
+  }
+}
